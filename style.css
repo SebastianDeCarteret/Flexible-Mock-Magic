@@ -17,7 +17,7 @@
 .nav-links {
   list-style: none;
   display: flex;
-  margin-right: 40px;
+  margin-right: 15px;
 }
 
 .nav-item a {
@@ -31,13 +31,27 @@
   background-color: white;
 }
 
-.sidebar p:hover {
-  background-color: white;
+.nav-item:hover a {
+  color: #59d9a1;
+}
+
+.sidebar-item a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+}
+.sidebar-item {
+  height: fit-content;
+  width: fit-content;
+}
+
+.sidebar-item:hover a {
   color: #242457;
 }
 
-.nav-item:hover a {
-  color: #59d9a1;
+.sidebar-item:hover {
+  background-color: white;
 }
 
 .logo img {
@@ -50,7 +64,7 @@
   color: white;
   padding: 2rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   flex-direction: column;
   width: fit-content;
 }
@@ -89,6 +103,11 @@ footer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.enlarge-image {
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
 }
 
 /* CODE YOUR FLEXBOXES HERE */
